@@ -25,7 +25,7 @@ if (!isset($_SESSION['userid'])) {
 <body>
     <nav class="navbar navbar-expand-lg text-bg-primary">
         <div class="container">
-            <a class="navbar-brand" href="index.php">WEBSITE GALERY FOTO</a>
+            <a class="navbar-brand text-white" href="index.php">WEBSITE GALERY FOTO</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -41,16 +41,16 @@ if (!isset($_SESSION['userid'])) {
                     } else {
                         ?>
                         <li class="nav-item">
-                            <a class=" nav-link " aria-current="page" href="home.php">Home</a>
+                            <a class=" nav-link text-white" aria-current="page" href="home.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="album.php">Galery</a>
+                            <a class="nav-link text-white" href="album.php">Galery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="foto.php">Image</a>
+                            <a class="nav-link text-white" href="foto.php">Image</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="logout.php">Logout</a>
+                            <a class="nav-link text-white" href="logout.php">Logout</a>
                         </li>
                         <?php
                     }
